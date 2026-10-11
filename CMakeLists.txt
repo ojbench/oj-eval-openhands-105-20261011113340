@@ -7,8 +7,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Set compiler flags for optimization
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -Wall -Wextra")
 
-# Set output directory for executables to current source directory
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
-
-# Add executable
+# Add executable named 'code'
 add_executable(code main.cpp)
